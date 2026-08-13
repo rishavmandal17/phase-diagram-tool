@@ -581,7 +581,7 @@ export default function AlloyPhaseExplorer() {
         }
         .apx-root * { box-sizing: border-box; }
 
-        .apx-header { display: flex; align-items: baseline; justify-content: space-between; flex-wrap: wrap; gap: 10px; margin-bottom: 14px; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
+        .apx-header { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; margin-bottom: 14px; border-bottom: 1px solid var(--line); padding-bottom: 14px; }
         .apx-title { font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 20px; letter-spacing: 0.01em; margin: 0; }
         .apx-subtitle { color: var(--muted); font-size: 12.5px; margin-top: 3px; }
 
